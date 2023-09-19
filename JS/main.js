@@ -194,3 +194,7 @@ document.addEventListener("click", function (e) {
     document.querySelector(".overlay").remove();
   }
 });
+
+let yearSpan = document.getElementById("year");
+let currentYear = new Date().getFullYear();
+yearSpan.innerHTML = currentYear;
